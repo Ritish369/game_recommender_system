@@ -1,0 +1,4 @@
+Ignoring the data files due to git push file size limits.
+Also, it is better not to upload this data as it can be reproduced.
+Has only two folders -- raw and processed.
+Rest, will be posted simultaneously.
