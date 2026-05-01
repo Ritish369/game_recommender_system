@@ -1,4 +1,5 @@
 Ignoring the data files due to git push file size limits.
 Also, it is better not to upload this data as it can be reproduced.
 Has only two folders -- raw and processed.
-Rest, will be posted simultaneously.
+raw/ has raw data files and the zip file.
+processed/ has all the processed datasets of games and recommendations -- processed_games, processed_sampled_recommendations, simulated_users ans their train-test split -- for v0.
