@@ -1,0 +1,5 @@
+Ignoring the data files due to git push file size limits.
+Also, it is better not to upload this data as it can be reproduced.
+Has only two folders -- raw_clean and processed_clean.
+raw_clean/ has raw input data files and the zip file for the stabilized v0 MVP.
+processed_clean/ has all processed datasets for the cleaned v0 MVP -- item vectors, sampled interactions, temporal train-test split files and computed user profiles.

@@ -1,3 +1,13 @@
-raw/
-processed/
+.agents
+.codex
+.vscode
+
+data/
+
+raw_clean/
+processed_clean/
+
+__pycache__/
+*.py[cod]
 *.Identifier
+*.png
