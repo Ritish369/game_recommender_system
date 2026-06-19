@@ -2,10 +2,15 @@
 .codex
 .vscode
 
-data/
+v0/data/
 
-raw_clean/
-processed_clean/
+v0/data_clean/raw_clean/
+v0/data_clean/processed_clean/
+
+v1/data/raw/
+v1/data/processed/
+v1/models/
+v1/ablation_results.json
 
 __pycache__/
 *.py[cod]

@@ -1,0 +1,5 @@
+Ignoring the data files due to git push file size limits.
+Also, it is better not to upload this data as it can be reproduced.
+Has only two folders -- raw and processed.
+raw/ has raw input data files and the zip file.
+processed/ has all processed datasets -- item vectors, sampled interactions, temporal train-test split files and computed user profiles.
