@@ -101,7 +101,7 @@ not-yet-released items are excluded. Metrics: HitRate@10, Precision@10, Recall@1
 
 Here's the complete flow:
 
-![Pipeline Flow](image-1.png)
+![Pipeline Flow](../images/image-1.png)
 
 ---
 
@@ -110,7 +110,7 @@ Here's the complete flow:
 At the centre of all this is a **Two-Tower Model** — the industry-standard
 architecture for candidate generation in recommendation systems.
 
-![Architecture Diagram](image.png)
+![Architecture Diagram](../images/image.png)
 
 **User Tower:** encodes a user's interaction history through multi-head
 self-attention (4 heads, 128-dim), combined with a learnable user ID embedding,

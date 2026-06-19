@@ -11,8 +11,6 @@ v1/data/raw/
 v1/data/processed/
 v1/models/
 v1/ablation_results.json
-v1/image.png
-v1/image-1.png
 
 __pycache__/
 *.py[cod]
