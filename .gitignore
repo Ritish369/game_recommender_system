@@ -15,4 +15,3 @@ v1/ablation_results.json
 __pycache__/
 *.py[cod]
 *.Identifier
-#*.png

@@ -233,10 +233,10 @@ v1/
 │       └── v1.ipynb        # Original experimental notebook (historical reference)
 ├── remote_data.sh          # Downloads the Kaggle dataset
 ├── PIPELINE.md             # Complete data-flow and design reference
-├── ABLATIONS.md            # Ablation study results and analysis
-├── image.png               # Architecture diagram
-└── image-1.png             # Pipeline flow diagram
+└── ABLATIONS.md            # Ablation study results and analysis
 ```
+
+Images referenced above (`image.png`, `image-1.png`) live at `../images/` in the repository root.
 
 ---
 

@@ -1,7 +1,9 @@
 # v1 Ablation Study
 
 Three controlled experiments that isolate the contribution of each major model component.
-Run each with a fresh training run (cleaning `processed/` and `models/` between runs).## Running the ablations
+Run each with a fresh training run (cleaning `processed/` and `models/` between runs).
+
+## Running the ablations
 
 ### Via CLI (recommended)
 ```bash
