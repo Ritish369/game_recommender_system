@@ -19,7 +19,7 @@ def clean_interactions(interactions: pd.DataFrame) -> pd.DataFrame:
     interactions.dropna(subset=["user_id", "app_id", "date"], inplace=True)
     interactions["user_id"] = interactions["user_id"].astype("int64")
     interactions["app_id"] = interactions["app_id"].astype("int64")
-    interactions["is_recommended"] = interactions["is_recommended"].astype("bool")
+    # interactions["is_recommended"] = interactions["is_recommended"].astype("bool")
     return interactions
 
 
@@ -88,6 +88,8 @@ def intersect_catalogs(
     
     Saves pre-intersection catalog as fallback_games for cold-start recommendations.
     """
+    fallback_games = games.copy()
+    
     valid_catalog_app_ids = set(games_metadata["app_id"]) & set(games["app_id"])
     games = games[games["app_id"].isin(valid_catalog_app_ids)].copy()
     games_metadata = games_metadata[
@@ -97,7 +99,6 @@ def intersect_catalogs(
         interactions["app_id"].isin(valid_catalog_app_ids)
     ].copy()
 
-    fallback_games = games.copy()
     return games, games_metadata, interactions, fallback_games
 
 

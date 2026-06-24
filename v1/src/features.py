@@ -232,7 +232,7 @@ def _get_final_feature_colnames(item_features_df: pd.DataFrame) -> list[str]:
 def build_weighted_item_matrix(
     item_features_df: pd.DataFrame,
 ) -> pd.DataFrame:
-    """L2-normalize each feature block independently, apply learned weights, concatenate.
+    """L2-normalize each feature block independently, apply weights, concatenate.
     
     Block weights: 15% numeric, 15% binary, 25% tags, 45% descriptions.
     Final concatenation is L2-normalized for ANN-friendly inner products (= cosine sim).
